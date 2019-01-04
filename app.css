@@ -1,0 +1,80 @@
+@media print {
+  body {
+    width: 29.7cm;
+    height: 21cm;
+    background-image: url(./diploma.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -2px;
+  }
+}
+
+* {
+  font-family: 'Opens Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#diploma {
+  width: 100%;
+  height: 100%;
+}
+
+.content {
+  display: inline-block;
+  width: 800px;
+  text-align: center;
+  margin: 20% 0 0 20%;
+}
+
+.content .paragraph {
+  margin: 0;
+  font-weight: 300;
+}
+
+.content .paragraph span {
+  font-weight: bold;
+}
+
+.content .paragraph.-marginBottom {
+  margin-bottom: 45px;
+}
+
+.content #name {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  margin: 20px 0;
+  color: #af1c27;
+}
+
+.content #course {
+  display: block;
+  font-size: 1.3rem;
+  margin: 19px auto;
+  max-width: 550px;
+}
+
+.signatures {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.signatures .signature {
+  float: left;
+  width: 22%;
+  border-top: 1px solid black;
+}
+
+.signatures .signature span {
+  display: block;
+  font-weight: bold;
+}
+
+.signatures .signature:first-child {
+  margin-left: 18%;
+}
+
+.signatures .signature:not(:last-child) {
+  margin-right: 6%;
+}
+/*# sourceMappingURL=app.css.map */
